@@ -19,7 +19,11 @@ class AppConstants {
 
   // NewsAPI - ganti dengan API key dari newsapi.org (gratis)
   static const String newsApiBaseUrl = 'https://newsapi.org/v2/';
-  static const String newsApiKey = '6a010536def24fe38c36fd141b3765b6';
+  // TODO: pindahkan ke .env / --dart-define saat build, jangan hardcode di source
+static const String newsApiKey = String.fromEnvironment(
+  'NEWS_API_KEY',
+  defaultValue: '6a010536def24fe38c36fd141b3765b6',
+);
 
   // Default category
   static const String defaultCategory = 'technology';
