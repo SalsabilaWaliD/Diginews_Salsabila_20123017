@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+/// Mengatur tema aplikasi berdasarkan flavor (dev/prod).
+/// PROD menggunakan warna biru gelap sesuai ketentuan,
+/// DEV menggunakan warna teal sebagai pembeda visual.
 class AppTheme {
   // PROD wajib Biru Gelap
   static const Color prodPrimaryColor = Color(0xFF0D1B2A);
