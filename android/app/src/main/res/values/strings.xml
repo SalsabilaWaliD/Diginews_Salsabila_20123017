@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DigiNews</string>
+    <!-- app_name diatur dari productFlavors di build.gradle -->
 </resources>
