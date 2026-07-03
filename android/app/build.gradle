@@ -26,8 +26,8 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace 'com.salsabila.diginews'   // ← INI YANG DITAMBAHKAN!
-    compileSdkVersion 33
+    namespace 'com.salsabila.diginews'
+    compileSdkVersion 34   // ← UBAH 33 → 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -46,7 +46,7 @@ android {
     defaultConfig {
         applicationId "com.salsabila.diginews"
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion 33
+        targetSdkVersion 34   // ← UBAH 33 → 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
