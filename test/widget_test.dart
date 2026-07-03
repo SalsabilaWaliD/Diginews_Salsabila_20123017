@@ -1,4 +1,4 @@
-import 'package:diginews_salsabila_20123017/main.dart';
+import 'package:diginews/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
