@@ -184,3 +184,6 @@ Minimal 20 commit di minimal 3 hari berbeda. Contoh:
 - **Repository:** https://github.com/[username]/diginews
 - **APK Release:** (dari GitHub Actions artifacts)
 - **Video Presentasi:** (upload ke YouTube unlisted)
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
